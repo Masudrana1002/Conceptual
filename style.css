@@ -2,26 +2,76 @@
     margin: 0px;
     padding: 0px;
 }
+/*nav start */
+.logo-pic{
+    width: 220px;
+    padding:10px;
+}
 .manu-continer{
     background-color: rgb(32,32 , 32);
     display: flex;
     justify-content: space-around;
     height: 45px;
-    align-items: center;
-   
+    align-items: center; 
+    padding: 12px;
 }
 .manu{
     color: white;
     display: flex;
     justify-content: space-between;
     list-style: none;
+    align-items: center;
 }
 .item{
-    margin-right: 15px;
-    padding-right: 15px;
+    margin-right: 35px;
     font-size: 18px;
+}
+.manu li {
+    padding: 5px 20px;
+    font-weight: 800;
+}
+.item:hover{
+    background-color: rgb(255, 254, 254);
+    color: rgb(3, 3, 3);
+    border-radius: 5px;   
 }
 .logo-pic{
     width: 120px;
     padding: 5px;
 }
+/*nav end*/
+/*baner start*/
+.main-benar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(background.png) , linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    height: 100vh;
+    background-size: cover;
+    
+}
+.benanr{
+    width: 350px;
+}
+.bennar-text h1 {
+    font-size: 65px;
+}
+.bennar-text p{
+    font-size: 22px;
+}
+button{
+    margin-top: 15px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+button:hover{
+    background-color: rgb(236, 109, 109);
+    color: white;
+}
+/*baner End*/
+
+
