@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.manu-continer{
+    background-color: rgb(32,32 , 32);
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    align-items: center;
+   
+}
+.manu{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.item{
+    margin-right: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+}
+.logo-pic{
+    width: 120px;
+    padding: 5px;
+}
