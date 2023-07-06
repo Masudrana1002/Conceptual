@@ -73,5 +73,74 @@ button:hover{
     color: white;
 }
 /*baner End*/
+/*aboute us section start*/
+.about-countant{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    flex-direction: row-reverse;
+    padding-top: 100px;
+    
+    
+}
+.about-us{
+    height: 100vh;
+}
+.about-us h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight: 900px;
+    padding-top: 25px;
+    
+    
+}
+.about-countant h3{
+    font-size:54px ;
+    font-weight: bold;
+
+}
+.about-countant p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.about-img img{
+    width: 500px;
+    padding-top: 35px;
+
+}
+/*aboute us section end*/
 
 
+    
+.service{
+    background-image: url(background.png) , linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+   
+}
+.service h2{
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+    font-size: 45px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 200px ;
+    padding-top: 200px;
+    
+}
+.card-iteme {
+    width: 200px;
+    height: 280px;
+    box-shadow: 4px  2px 105px gray;
+    padding: 15px;
+    color: white;
+    text-align: center;
+   
+}
+.service img{
+    width: 70px;
+    padding: 15px;
+}
