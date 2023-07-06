@@ -147,3 +147,15 @@ button:hover{
     width: 70px;
     padding: 15px;
 }
+
+.foter-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+.fotter-img{
+    width: 120px;
+}
