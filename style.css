@@ -116,25 +116,28 @@ button:hover{
     
 .service{
     background-image: url(background.png) , linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
-   
+    height: 100vh;
 }
 .service h2{
     text-align: center;
     color: white;
-    padding-top: 35px;
-    font-size: 45px;
+    font-size: 40px;
+    padding-top: 30px;
+
 }
 .card{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 200px ;
+    align-items: center;
     padding-top: 200px;
+  
+    
     
 }
 .card-iteme {
-    width: 200px;
-    height: 280px;
-    box-shadow: 4px  2px 105px gray;
+    width: 250px;
+    height: 380px;
+    box-shadow: 4px  2px 105px rgb(104, 103, 103);
     padding: 15px;
     color: white;
     text-align: center;
